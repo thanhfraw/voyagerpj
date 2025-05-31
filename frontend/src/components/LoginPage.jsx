@@ -7,7 +7,7 @@ function LoginPage({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "adminnv" && password === "112233") {
+    if (username === "admin" && password === "112233") {
       setError("");
       onLogin();
     } else {

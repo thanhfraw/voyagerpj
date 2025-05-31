@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,6 +10,7 @@ import HomePage from "./components/HomePage.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <Router>
